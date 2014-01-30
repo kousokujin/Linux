@@ -14,7 +14,7 @@ $ git add <file> # <file>をインデックスに登録(ディレクトリも登
 $ git commit -m "<comment>" # コミットする。<comment>にコメント
 $ git log # リポジトリの変更履歴
 $ git remote add <name> <url> # リモートリポジトリを追加
-$ git push <repository> <refspec> # リポジトリをプッシュ(アップロード)する。
+$ git push -u <repository> <refspec> # リポジトリをプッシュ(アップロード)する。
 $ git push # 2回目移行pushする場合
 $ git clone <repository> <directory> # リポジトリをクローン。
 $ git pull <repository> <refspec> # リポジトリをpull(ダウンロード)する。
